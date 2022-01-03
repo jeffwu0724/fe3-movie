@@ -1,0 +1,27 @@
+{
+  "baseUrl": "http://localhost:12345/api/g",
+  "pollLimit": 10,
+  "gatewayEPs": {
+    "reportEP": "/report"
+  },
+  "idmEPs": {
+    "loginEP": "/idm/login",
+    "registerEP": "/idm/register"
+  },
+  "movieEPs": {
+    "searchEP": "/movies/search",
+    "detailEP": "/movies/get",
+    "browseEP": "/movies/browse"
+  },
+  "billingEPs": {
+    "cart_insertEP": "/billing/cart/insert",
+    "cart_updateEP": "/billing/cart/update",
+    "cart_deleteEP": "/billing/cart/delete",
+    "cart_retrieveEP": "/billing/cart/retrieve",
+    "order_placeEP": "/billing/order/place",
+    "order_retrieveEP": "/billing/order/retrieve",
+    "order_completeEP": "/billing/order/complete",
+    "discount_createEP": "/billing/discount/create",
+    "discount_applyEP": "/billing/discount/apply"
+  } 
+}
